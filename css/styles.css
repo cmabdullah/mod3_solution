@@ -144,20 +144,32 @@ p {
 
 /********** Large devices only **********/
 @media (min-width: 1200px) {
-
+  .collapse .nav{
+  display: none;
+}
 
 }
 
 /********** Medium devices only **********/
-@media (min-width: 992px) and (max-width: 1199px){
-/*********MD*/
+@media (min-width: 992px) and (max-width: 1199px) {
+  .collapse .nav{
+  display: none;
 }
+
+}
+
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
-/*********SM*/
+  .collapse .nav{
+  display: none;
 }
+
+}
+
 /********** Extra small devices only **********/
-@media (max-width: 767px){
-/*********XS*/
+@media (max-width: 767px) {
+  .collapse .nav{
+  display: block;
+}
 }
 
